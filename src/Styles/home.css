@@ -1,0 +1,48 @@
+/* home.css */
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00bcd4;
+  transition: transform 0.4s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  background: #111;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background: #00bcd4;
+  color: black;
+}
