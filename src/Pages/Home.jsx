@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
-                                <i className="fab fa-node fa-2x mb-2"></i>
+                                <i className="fab fa-node-js fa-2x mb-2"></i>
                                 <span>Node</span>
                             </div>
                         </div>
