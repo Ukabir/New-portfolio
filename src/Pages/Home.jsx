@@ -55,43 +55,43 @@ const Home = () => {
                     <h2 className="mb-4 text-center">Skills</h2>
                     <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fab fa-html5 fa-2x mb-2"></i>
                                 <span>HTML</span>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fab fa-css3-alt fa-2x mb-2"></i>
                                 <span>CSS</span>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fab fa-js fa-2x mb-2"></i>
                                 <span>JavaScript</span>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fab fa-bootstrap fa-2x mb-2"></i>
                                 <span>Bootstrap</span>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fas fa-fire fa-2x mb-2"></i>
                                 <span>Firebase</span>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fab fa-react fa-2x mb-2"></i>
                                 <span>React</span>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="skill-card text-center p-3 d-flex align-items-center justify-content-center rounded">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
                                 <i className="fab fa-node-js fa-2x mb-2"></i>
                                 <span>Node</span>
                             </div>
