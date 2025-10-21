@@ -40,7 +40,7 @@ const Home = () => {
 
                     <h2 className="mt-4">Professional Summary</h2>
                     <p>
-                        Passionate Fullstack Developer with comprehensive expertise in HTML5, CSS3, Bootstrap, JavaScript, and React.
+                        Passionate Fullstack Developer with comprehensive expertise in HTML5, CSS3, Bootstrap, JavaScript, React, Node, Express, MongoDB, Firebase and other Non-relational database. 
                         I have successfully completed my Fullstack Development course at SQI, mastering both front-end and back-end development, including building full-stack applications.
                         Currently, I am contributing to AXUME by designing, developing, and maintaining their company website, applying modern development practices to deliver seamless user experiences.
                         I thrive on creating interactive, responsive, and efficient web applications, and I am constantly exploring new technologies and frameworks to enhance my skills.
