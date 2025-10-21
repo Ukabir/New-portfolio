@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import itemhive from "../assets/itemhive.png";
 import demarket from "../assets/demarket.png";
 import axume from "../assets/axume.png";
+import game from "../assets/game.png";
 import freelancer from "../assets/freelancer.png";
 import "../Styles/products.css";
 
@@ -33,6 +34,13 @@ const Projects = () => {
 			img: axume,
 			tech: "HTML, CSS, JS, Firebase, Bootstrap",
 			desc: "A fully working student portal, includes both student and Admin dashboard and test course application payment, You can signup as a student but not Admin for that you can contact me.",
+		},
+		{
+			title: "A simple React Hide and Seek game",
+			link: "https://hideandseekgame-brown.vercel.app/",
+			img: game,
+			tech: "React, CSS, Bootstrap",
+			desc: "Created a simple game where you hide from the seeker, still in development, contact me for any suggestions or fixes",
 		},
 		{
 			title: "FREELANCER website clone - Frontend only",
