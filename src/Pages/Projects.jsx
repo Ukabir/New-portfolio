@@ -5,6 +5,7 @@ import itemhive from "../assets/itemhive.png";
 import demarket from "../assets/demarket.png";
 import axume from "../assets/axume.png";
 import game from "../assets/game.png";
+import test from "../assets/test.png";
 import freelancer from "../assets/freelancer.png";
 import "../Styles/products.css";
 
@@ -43,12 +44,20 @@ const Projects = () => {
 			desc: "Created a simple game where you hide from the seeker, still in development, contact me for any suggestions or fixes",
 		},
 		{
+			title: "A job application test",
+			link: "https://test-ten-plum-82.vercel.app/",
+			img: test,
+			tech: "React, CSS, Bootstrap",
+			desc: "A frontend job application test where i was fetching the patients and other info from an API given",
+		},
+		{
 			title: "FREELANCER website clone - Frontend only",
 			link: "https://ukabir.github.io/PROJECT/",
 			img: freelancer,
 			tech: "HTML, CSS, Bootstrap",
 			desc: "A clone of the freelancer website, navigate through Landing, Signup/Login, Dashboard, Profile, Settings pages. Just the frontend",
 		},
+		
 		
 		// Add more projects here
 	];
