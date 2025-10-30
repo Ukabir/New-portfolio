@@ -7,6 +7,7 @@ import axume from "../assets/axume.png";
 import game from "../assets/game.png";
 import test from "../assets/test.png";
 import freelancer from "../assets/freelancer.png";
+import oreblogda from "../assets/oreblogda.png";
 import "../Styles/products.css";
 
 const Projects = () => {
@@ -15,6 +16,13 @@ const Projects = () => {
 	}, []);
 
 	const projects = [
+		{
+			title: "Oreblogda - My Anime blog",
+			link: "https://oreblogda.vercel.app/",
+			img: oreblogda,
+			tech: "NEXT, Tailwind CSS, MongoDB",
+			desc: "A blog created for my personal use, I post anime news, edits, memes etc. Fully functioning website functions including liking, commenting, sharing etc.",
+		},
 		{
 			title: "ITEMHIVE",
 			link: "https://itemhive.ng/",

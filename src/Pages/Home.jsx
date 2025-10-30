@@ -3,6 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import profileImg from "../assets/Snapchat-1106375230.jpg";
 import "../Styles/home.css";
+import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaReact, FaNodeJs, FaFire } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiFirebase } from "react-icons/si";
+
 
 const Home = () => {
     useEffect(() => {
@@ -40,7 +43,7 @@ const Home = () => {
 
                     <h2 className="mt-4">Professional Summary</h2>
                     <p>
-                        Passionate Fullstack Developer with comprehensive expertise in HTML5, CSS3, Bootstrap, JavaScript, React, Node, Express, MongoDB, Firebase and other Non-relational database. 
+                        Passionate Fullstack Developer with comprehensive expertise in HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, Nextjs, React, Node, Express, MongoDB, Firebase and other Non-relational database.
                         I have successfully completed my Fullstack Development course at SQI, mastering both front-end and back-end development, including building full-stack applications.
                         Currently, I am contributing to AXUME by designing, developing, and maintaining their company website, applying modern development practices to deliver seamless user experiences.
                         I thrive on creating interactive, responsive, and efficient web applications, and I am constantly exploring new technologies and frameworks to enhance my skills.
@@ -53,50 +56,71 @@ const Home = () => {
             <section className="section section2 py-5" id="skills" data-aos="zoom-in">
                 <div className="container">
                     <h2 className="mb-4 text-center">Skills</h2>
-                    <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div className="row row-cols-2 row-cols-md-3 d-flex justify-content-center row-cols-lg-4 g-4">
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fab fa-html5 fa-2x mb-2"></i>
+                                <FaHtml5 className="fa-2x mb-2 text-danger" />
                                 <span>HTML</span>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fab fa-css3-alt fa-2x mb-2"></i>
+                                <FaCss3Alt className="fa-2x mb-2 text-primary" />
                                 <span>CSS</span>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fab fa-js fa-2x mb-2"></i>
+                                <FaJs className="fa-2x mb-2 text-warning" />
                                 <span>JavaScript</span>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fab fa-bootstrap fa-2x mb-2"></i>
+                                <FaBootstrap className="fa-2x mb-2 text-purple" />
                                 <span>Bootstrap</span>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fas fa-fire fa-2x mb-2"></i>
+                                <SiFirebase className="fa-2x mb-2 text-warning" />
                                 <span>Firebase</span>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fab fa-react fa-2x mb-2"></i>
+                                <FaReact className="fa-2x mb-2 text-info" />
                                 <span>React</span>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
-                                <i className="fab fa-node-js fa-2x mb-2"></i>
+                                <FaNodeJs className="fa-2x mb-2 text-success" />
                                 <span>Node</span>
                             </div>
                         </div>
+
+                        <div className="col">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
+                                <SiNextdotjs className="fa-2x mb-2" />
+                                <span>Next JS</span>
+                            </div>
+                        </div>
+
+                        <div className="col">
+                            <div className="skill-card text-center p-3 d-flex align-items-center gap-1 justify-content-center rounded">
+                                <SiTailwindcss className="fa-2x mb-2 text-sky-400" />
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </section>
         </div>
